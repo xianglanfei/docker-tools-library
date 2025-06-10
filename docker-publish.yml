@@ -37,7 +37,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           # The context is the subdirectory for the specific tool
-          context: ./dockerfiles/${{ matrix.tool }}
+          context: ./Dockerfiles/${{ matrix.tool }}
           # Tells the action to push the image after building
           push: true
           # The name and tag for the image on Docker Hub
