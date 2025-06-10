@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         # Re-enable all the tools we want to build
-        tool: [jq, node-builder, curl,yq]
+        tool: [jq, node-builder, curl,yq,taskmaster]
 
     steps:
       # Step 1: Checkout the code
